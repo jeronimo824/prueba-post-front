@@ -8,8 +8,8 @@
               <th>#</th>
               <th>ID</th>
               <th>FOTO</th>
+              <th>POST</th>
               <th>NOMBRE</th>
-              <th>APELLIDO</th>
               <th>REGISTRO</th>
               <th></th>
             </tr>
@@ -29,11 +29,11 @@
                 <td v-text="usu.apellido"></td>
                 <td v-text="new Date(usu.created_at).toLocaleDateString('en-US')"></td>
                 <td>
-                  <router-link :to="{path:'view/'+usu.id}" class="btn btn-info">
+                  <router-link :to="{path:'viewE/'+usu.id}" class="btn btn-info">
                     <i class="fa-solid fa-eye"></i>
                   </router-link>
                   &nbsp;
-                  <router-link :to="{path:'edit/'+usu.id}" class="btn btn-warning">
+                  <router-link :to="{path:'editE/'+usu.id}" class="btn btn-warning">
                     <i class="fa-solid fa-edit"></i>
                   </router-link>
                   &nbsp;

@@ -17,12 +17,12 @@ const routes = [
     component: UsuarioNew
   },
   {
-    path: '/editE:id',
+    path: '/editE/:id',
     name: 'editE',
     component: UsuarioEdit
   },
   {
-    path: '/viewE:id',
+    path: '/viewE/:id',
     name: 'viewE',
     component: UsuarioView
   }

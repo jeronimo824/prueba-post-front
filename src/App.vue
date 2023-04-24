@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Gestion Usuarios</a>
+    <a class="navbar-brand" href="#">Gestion Post</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,15 +12,15 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Usuarios
+            Post
           </a>
           <ul class="dropdown-menu">
             <li>
-              <router-link class="dropdown-item" to="/">Listar Usuarios</router-link>
+              <router-link class="dropdown-item" to="/">Listar Post</router-link>
               
             </li>
             <li>
-              <router-link class="dropdown-item" to="/createE">Registrar Nuevo</router-link>
+              <router-link class="dropdown-item" to="/createE">Registrar Post</router-link>
               
             </li>
           </ul>
